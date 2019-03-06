@@ -1,0 +1,220 @@
+﻿.grid-container {
+    width: 100% !important;
+    max-width: 126em !important;
+    align-items: center;
+    text-align: center;
+}
+.grid-container * {
+    box-sizing: border-box;
+}
+.grid-container .row {
+    display: flex;
+}
+.grid-container .row::before, .grid-container .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.grid-container .row [class*='col-'] {
+    float: left;
+    min-height: 1px;
+    width: 16.66%;
+    padding: 12px;
+}
+.grid-container .row .col-1 {
+    width: 16.66%;
+}
+.grid-container .row .col-2 {
+    width: 33.33%;
+}
+.grid-container .row .col-3 {
+    width: 50%;
+}
+.grid-container .row .col-4 {
+    width: 66.664%;
+}
+.grid-container .row .col-5 {
+    width: 83.33%;
+}
+.grid-container .row .col-6 {
+    width: 100%;
+}
+.grid-container .row .col-1-12 {
+    width: 8.33%;
+}
+
+.grid-container .row .col-2-12 {
+    width: 16.66%;
+}
+
+.grid-container .row .col-3-12 {
+    width: 25%;
+}
+
+.grid-container .row .col-4-12 {
+    width: 33.33%;
+}
+
+.grid-container .row .col-5-12 {
+    width: 41.66%;
+}
+
+.grid-container .row .col-6-12 {
+    width: 50%;
+}
+
+.grid-container .row .col-7-12 {
+    width: 58.33%;
+}
+
+.grid-container .row .col-8-12 {
+    width: 66.66%;
+}
+
+.grid-container .row .col-9-12 {
+    width: 75%;
+}
+
+.grid-container .row .col-10-12 {
+    width: 83.33%;
+}
+
+.grid-container .row .col-11-12 {
+    width: 91.66%;
+}
+
+.grid-container .row .col-12-12 {
+    width: 100%;
+}
+
+@media all and (max-width: 800px) {
+    .grid-container .row {
+        display: block;
+    }
+    .grid-container .row .col-1 {
+        width: 33.33%;
+    }
+    .grid-container .row .col-2 {
+        width: 50%;
+    }
+    .grid-container .row .col-2:last-of-type {
+        width: 100%;
+    }
+    .grid-container .row .col-3 {
+        width: 83.33%;
+    }
+    .grid-container .row .col-4 {
+        width: 100%;
+    }
+    .grid-container .row .col-5 {
+        width: 100%;
+    }
+    .grid-container .row .col-5 ~ .col-1 {
+        width: 100%;
+    }
+    .grid-container .row .col-6 {
+        width: 100%;
+    }
+    .grid-container .row .col-1-12 {
+        width: 33.33%;
+    }
+    .grid-container .row .col-2-12 {
+        width: 33.33%;
+    }
+    .grid-container .row .col-3-12 {
+        width: 50%;
+    }
+    .grid-container .row .col-4-12 {
+        width: 50%;
+    }
+    .grid-container .row .col-5-12 {
+        width: 83.33%;
+    }
+    .grid-container .row .col-6-12 {
+        width: 83.33%;
+    }
+    .grid-container .row .col-7-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-8-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-9-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-9-12 ~ .col-1-12, .grid-container .row .col-9-12 ~ .col-2-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-10-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-10-12 ~ .col-1-12, .grid-container .row .col-10-12 ~ .col-2-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-11-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-12-12 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .grid-container .row {
+        display: block;
+    }
+    .grid-container .row .col-1 {
+        width: 50%;
+    }
+    .grid-container .row .col-2 {
+        width: 100%;
+    }
+    .grid-container .row .col-3 {
+        width: 100%;
+    }
+    .grid-container .row .col-4 {
+        width: 100%;
+    }
+    .grid-container .row .col-5 {
+        width: 100%;
+    }
+    .grid-container .row .col-6 {
+        width: 100%;
+    }
+    .grid-container .row .col-1-12 {
+        width: 50%;
+    }
+    .grid-container .row .col-2-12 {
+        width: 50%;
+    }
+    .grid-container .row .col-3-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-4-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-5-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-6-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-7-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-8-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-9-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-10-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-11-12 {
+        width: 100%;
+    }
+    .grid-container .row .col-12-12 {
+        width: 100%;
+    }
+}
