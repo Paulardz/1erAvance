@@ -1,0 +1,33 @@
+#CAJAmensajerecibido
+{
+    text-align: left;
+    border: 2px rgb(56, 56, 56) outset;
+    
+    width: 900px;
+    height: 350px;
+    padding: 5px;
+    margin: auto;
+    overflow:auto;
+    word-wrap:break-word;
+}
+
+#CAJAescribir
+{
+    text-align: right;
+    border: 4px rgb(4, 146, 134) outset;
+    
+    width: 900px;
+    height: 100px;
+    padding: 5px;
+    margin: auto;
+    overflow:auto;
+    word-wrap:break-word;
+}
+
+#idfooter
+{
+    border: 4px rgb(15, 148, 137) outset;
+    
+    width: 900px;
+    height: 50px;
+}
